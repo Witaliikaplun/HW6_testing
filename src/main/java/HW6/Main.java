@@ -16,7 +16,7 @@ public class Main {
             ArrObj.printArr(ArrObj.arrayCreator(arr3));
 
         }catch (RuntimeException ex){
-            System.out.println("Минимум в одном из массиввов нет четверки");
+            System.out.println("Минимум в одном из массиввов нет четверки ");
             ex.printStackTrace();
         }
         System.out.println(ArrObj.arrayBool(arr1));
